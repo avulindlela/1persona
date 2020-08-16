@@ -3,162 +3,136 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
     <link rel="icon" href="images/1p.ico">
-    <link href="https://fonts.googleapis.com/css2?family=Baloo+2&family=Lemonada&display=swap" rel="stylesheet">
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
-    <title>1 Persona</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>1Persona</title>
 </head>
 <body>
-    <div class="head-container">
-        <table>
-            <tr>
-                <td>
-                    <img class="logo" src="images/logo.png" alt="1Persona-logo">
-                </td>
+    
+    <nav class="navbar navbar-expand-md sticky-top">
+        <h1 class="navbar-brand">1Persona</h1>
 
-                <td>
-                    <h1 class="brand-name">Web Development and Hosting services</h1>
-                    <p class="slogan"> Making YOU known</p>
-                </td>
-            </tr>
-        </table>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav-menu" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fa fa-bars" aria-hidden="true"></i>
+        </button>
 
-        <div class="navigation">
-            <h1 class="nav-btn">
-                <a href="index.html"> Home</a>
-            </h1>
+        <div class="collapse navbar-collapse" id="nav-menu">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
 
-            <h1 class="nav-btn">
-                <a href="about.html"> About Us</a>
-            </h1>
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html#pricing">Pricing</a>
+                </li>
 
-            <h1 class="nav-btn">
-                <a href="contact.html"> Contact Us</a>
-            </h1>
-        </div>
+                <li class="nav-item">
+                    <a class="nav-link" href="">About</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="">Contact</a>
+                </li>
+            </ul>
+        </div>  
+    </nav>
+
+    <div class="container-fluid">
+        <section id="about">
+            <h3 class="about-heading"> Word from the founder</h3>
+            <div class="founder-video">
+                <iframe class="video embed-responsive" width="560" height="315" src="https://www.youtube-nocookie.com/embed/XTu7yUNgdoo?start=3" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </section>
+
+        <section id="about-us">
+            <div class="row">
+                <div class="about-image col col-3">
+                    <img class="web-icons" src="https://image.flaticon.com/icons/svg/712/712019.svg" alt="Vision-icon">
+                </div>
+
+                <div class="col col-md-6">
+                    <h3 class="about-sub-heading"> Vision</h3>
+
+                    <p class="middle-content">
+                        Our vision is to provide our services globaly and have global clients.
+                    </p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="about-image col col-3">
+                    <img class="web-icons" src="https://image.flaticon.com/icons/svg/993/993774.svg" alt="mission-icon">
+                </div>
+
+                <div class="col col-md-6">
+                    <h3 class="about-sub-heading"> Mission</h3>
+                
+                    <p class="middle-content">
+                        Our mission is to make individuals and growing businesses known to the corporate world.
+                    </p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="about-image col col-3">
+                    <img class="web-icons" src="https://image.flaticon.com/icons/svg/1528/1528669.svg" alt="vision-icon">
+                </div>
+
+                <div class="col col-md-6">
+                    <h3 class="about-sub-heading"> Values</h3>
+                
+                    <p class="middle-content">
+                        We believe and live up to the following values:<br>
+                        ~Professionalism.<br> ~Reliability.
+                        
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section id="why-us">
+            <h2 class="why-us-heading"> Why choose us?</h2>
+    
+            <p class="why-us-content">
+                Individual clients have the advantage in recruitment and selection processes as recruiters will know individuals for who the really are. Fun fact: Most recruiters are more interested in the persons character than their qualifications.                
+            </p>
+        </section>
+
+        <section id="meet-the-team">
+            <h1 class="meet-heading"> Meet The Team</h1>
+            <div class="row">
+                <div class="meet-box col col-md-6">
+                    <img class="meet-image" src="images/akhona.jpg" alt="akhona-image">
+                    <h3 class="meet-name">Akhona Vulindlela</h3>
+                    <p class="meet-content">Founder and CEO</p>
+                </div>
+
+                <div class="meet-box col col-md-6">
+                    <img class="meet-image" src="images/computer.jpg" alt="computer-image">
+                    <h3 class="meet-name">Dell Desktop Computer</h3>
+                    <p class="meet-content">Debian Server</p>
+                </div>
+            </div>
+        </section>
     </div>
 
-    <div class="middle-container">
-        <h1 class="heading"> About Us</h1>
-
-        <div class="about-us">
-
-            <div class="web-styling video">
-                
-                <h3> Word from the founder</h3>
-                
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/XTu7yUNgdoo" alt="1Persona-video" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </div>
-
-            <div class="clr"></div>
-
-            <div class="break">
-                <hr>
-            </div>
-
-            <div class="web-content-development">
-                <img class="web-icons" src="https://image.flaticon.com/icons/svg/712/712019.svg" alt="Vision-icon">
-                
-                <h3> Vision</h3>
-
-                <p class="middle-content">
-                    Our vision is to provide our services globaly and have global clients.
-                </p>
-            </div>
-
-            <div class="clr"></div>
-
-            <div class="break">
-                <hr>
-            </div>
-
-            <div class="web-styling">
-                <img class="web-style-icons" src="https://image.flaticon.com/icons/svg/993/993774.svg" alt="web-styling-icon">
-                
-                <h3> Mission</h3>
-                
-                <p class="middle-content">
-                    Our mission is to make individuals and growing businesses known to the corporate world.
-                </p>
-            </div>
-
-            <div class="clr"></div>
-
-            <div class="break">
-                <hr>
-            </div>
-
-            <div class="web-hosting">
-                <img class="web-icons" src="https://image.flaticon.com/icons/svg/1528/1528669.svg" alt="web-hosting-icon">
-                
-                <h3> Values</h3>
-                
-                <p class="middle-content">
-                    We believe and live up to the following values:<br>
-                    ~Professionalism<br> ~Reliability
-                    
-                </p>
-            </div>
-
-            <div class="clr"></div>
-
-            <div class="break">
-                <hr>
-            </div>
-        </div>
-
-        <div class="services">
-            <h2 class="why-us"> Why choose us?</h2>
-    
-                <div class="web-content-development wuc">
-                    <p class="middle-content why-us-content">
-                        Individual clients have the advantage in recruitment and selection processes as recruiters will know individuals for who the really are. Fun fact: Most recruiters are more interested in the persons character than their qualifications.                </p>
-                </div>
-    
-                <div class="clr"></div>
-    
-                <div class="break">
-                    <hr>
-                </div>
-        </div>
-
-
-    <div class="web-hosting meet-the-team">
-        <h3 class="meet-the-team-heading"> Meet the Team</h3>
-        
-        <p class="middle-content">
-            <img class="akhona" src="images/akhona.jpg" alt="akhona-img" width="40%">
-            <img class="computer" src="images/computer.jpg" alt="computer-img" width="37%">       
-        </p>
-
-        <div class="clr"></div>
-
-        <h4 class="discription me">
-            Akhona Vulindlela
-            <p class="discription-text">Founder and CEO</p>
-        </h4>
-
-        <h4 class="discription my-computer">
-            Dell desktop computer
-            <p class="discription-text">Debian server</p>
-        </h4>
-    </div>
-
-    <div class="break">
-        <hr>
-    </div> 
-
-    <div class="footer-container">
+    <div id="footer">
         <div class="social-media">
-            <h4> <a href=""> Facebook</a> <i class="fa fa-facebook-official" aria-hidden="true"></i></h4>
-            <h4> <a href=""> Instagram</a> <i class="fa fa-instagram" aria-hidden="true"></i></h4>
-            <h4> <a href=""> LinkedIn</a> <i class="fa fa-linkedin-square" aria-hidden="true"></i></h4>
+            <h4> <a class="lnk" href=""> Facebook</a> <i class="fa fa-facebook-official" aria-hidden="true"></i></h4>
+            <h4> <a class="lnk" href=""> Instagram</a> <i class="fa fa-instagram" aria-hidden="true"></i></h4>
+            <h4> <a class="lnk" href=""> LinkedIn</a> <i class="fa fa-linkedin-square" aria-hidden="true"></i></h4>
         </div>
 
         <p class="copyright">
-            &copy; Copy Right Reserved 2020
+            1 Persona &copy; Copy Right Reserved 2020
         </p>
     </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
 </body>
 </html>
