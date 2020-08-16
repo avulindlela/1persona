@@ -29,7 +29,7 @@
 
 /*** Product ***/
 #product {
-    background-color: #d7d1c9;
+    background-color: #c7c7c7;
     padding: 14% 2%;
 }
 
@@ -89,7 +89,7 @@
 
 /***Services***/
 #services {
-    background-color: #d7d1c9;
+    background-color: #c7c7c7;
     text-align: center;
     padding: 2rem 0;
 }
@@ -128,7 +128,7 @@
 }
 
 .card-header {
-    background-color: #d7d1c9;
+    background-color: #c7c7c7;
 }
 
 .pro {
@@ -150,7 +150,7 @@
 
 /***Footer***/
 #footer {
-    background-color:#d7d1c9;
+    background-color:#c7c7c7;
 }
 
 .social-media {
@@ -178,7 +178,7 @@ h4 {
 
 /*****About*****/
 #about {
-    background-color:#d7d1c9;
+    background-color:#c7c7c7;
     width: 100%;
     margin: 0;
     padding: 10% 2%;
@@ -219,7 +219,7 @@ h4 {
 
 /***Why US?***/
 #why-us {
-    background-color:#d7d1c9;
+    background-color:#c7c7c7;
     padding: 10% 3%;
 }
 
@@ -258,4 +258,30 @@ h4 {
 
 .meet-content {
     font-size: 2.5vmax;
+}
+
+/******Contact Us******/
+#contact {
+    background-color: #c7c7c7;
+    padding: 8% 4%;
+}
+
+.contact-heading {
+    font-size: 3vmax;
+    padding-top:3rem;
+}
+
+lable {
+    font-size: 2.2vmax;
+    
+}
+
+.contact-lnk {
+    color:  #4b5d67;
+}
+
+
+.contact-lnk:hover {
+    font-weight: bolder;
+
 }
