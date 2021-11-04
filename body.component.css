@@ -1,0 +1,39 @@
+.services {
+  width: 90%;
+  margin-left: auto;
+}
+
+.services-container {
+  width: 80%;
+  margin-left: auto;
+}
+
+
+.services-card {
+  min-height: 400px;
+  width: 250px;
+}
+
+.services-icon {
+  max-height: 100px;
+  width: 60%;
+  margin: auto;
+
+}
+
+
+
+.services-content {
+  min-height: 300px;
+  padding: 70px 0 10px 0;
+  background: linear-gradient(to top, #19a378 40%, #D3D3D3 100%);
+  border-radius: 5%;
+}
+
+.services-content-details {
+  margin: 10px;
+}
+
+.services-content-details-title {
+  text-align: center;
+}
